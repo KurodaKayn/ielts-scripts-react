@@ -1,0 +1,2198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS Speaking — 5 Universal Scripts (Part 2 & Part 3)</title>
+    <style>
+      :root {
+        --bg: #fafaf7;
+        --ink: #1f2937;
+        --muted: #6b7280;
+        --accent: #0f766e;
+        --accent-soft: #ccfbf1;
+        --accent-2: #b45309;
+        --line: #e5e7eb;
+        --card: #fff;
+        --highlight: #fef3c7;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.7;
+      }
+      .container {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 48px 28px 96px;
+      }
+      header.hero {
+        border-bottom: 2px solid var(--ink);
+        padding-bottom: 24px;
+        margin-bottom: 36px;
+      }
+      header.hero h1 {
+        font-size: 34px;
+        margin: 0 0 10px;
+        letter-spacing: -0.5px;
+      }
+      header.hero p {
+        color: var(--muted);
+        margin: 6px 0;
+        font-size: 15px;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 14px;
+      }
+      .pill {
+        background: var(--accent-soft);
+        color: var(--accent);
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+      nav.toc {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 20px 24px;
+        margin-bottom: 40px;
+      }
+      nav.toc h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: var(--muted);
+        margin: 0 0 14px;
+      }
+      nav.toc ol {
+        margin: 0;
+        padding-left: 20px;
+      }
+      nav.toc li {
+        margin: 6px 0;
+        font-size: 15px;
+      }
+      nav.toc a {
+        color: var(--ink);
+        text-decoration: none;
+        border-bottom: 1px dashed var(--line);
+      }
+      nav.toc a:hover {
+        color: var(--accent);
+        border-color: var(--accent);
+      }
+      section.script {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 28px 32px;
+        margin-bottom: 30px;
+        scroll-margin-top: 24px;
+      }
+      section.script h2 {
+        font-size: 24px;
+        margin: 0 0 4px;
+      }
+      section.script .subtitle {
+        color: var(--muted);
+        font-size: 14px;
+        margin-bottom: 18px;
+        font-style: italic;
+      }
+      .coverage {
+        background: #f0fdfa;
+        border-left: 4px solid var(--accent);
+        padding: 12px 16px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        font-size: 14px;
+      }
+      .coverage strong {
+        color: var(--accent);
+        display: block;
+        margin-bottom: 6px;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .coverage ul {
+        margin: 4px 0;
+        padding-left: 20px;
+      }
+      .coverage li {
+        margin: 3px 0;
+      }
+      .prompt-box {
+        background: #fff7ed;
+        border: 1px dashed var(--accent-2);
+        border-radius: 8px;
+        padding: 14px 18px;
+        margin: 18px 0;
+        font-size: 14px;
+        color: #7c2d12;
+      }
+      .prompt-box strong {
+        color: var(--accent-2);
+      }
+      .script-body {
+        font-size: 15.5px;
+        line-height: 1.85;
+      }
+      .script-body p {
+        margin: 14px 0;
+      }
+      .script-body .hl {
+        background: var(--highlight);
+        padding: 1px 4px;
+        border-radius: 3px;
+        font-weight: 500;
+      }
+      .vocab {
+        margin-top: 22px;
+        background: #fafaf7;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px 20px;
+      }
+      .vocab h4 {
+        margin: 0 0 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: var(--accent);
+      }
+      .vocab-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 8px 18px;
+        font-size: 14px;
+      }
+      .vocab-grid div {
+        padding: 2px 0;
+        border-bottom: 1px dotted var(--line);
+      }
+      .vocab-grid b {
+        color: var(--ink);
+      }
+      .vocab-grid span {
+        color: var(--muted);
+      }
+      .qa {
+        margin: 18px 0;
+        border-left: 3px solid var(--accent-soft);
+        padding: 4px 0 4px 18px;
+      }
+      .qa .q {
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 6px;
+        font-size: 15px;
+      }
+      .qa .a {
+        font-size: 15px;
+        line-height: 1.8;
+      }
+      .qa .tag {
+        display: inline-block;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 11px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        margin-left: 6px;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        vertical-align: middle;
+      }
+      .section-heading {
+        font-size: 28px;
+        margin: 50px 0 24px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--ink);
+      }
+      footer {
+        margin-top: 50px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+      @media print {
+        body {
+          background: #fff;
+        }
+        .container {
+          max-width: 100%;
+          padding: 20px;
+        }
+        section.script {
+          break-inside: avoid;
+          border: 1px solid #ddd;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero">
+        <h1>IELTS Speaking — 5 Universal Scripts</h1>
+        <p>
+          One smart strategy to cover <strong>27 Part 2 topics</strong> with
+          just 5 flexible stories.
+        </p>
+        <p>
+          Vocabulary calibrated to <strong>Band 7+</strong> (lexical range,
+          idiomatic usage, collocations).
+        </p>
+        <div class="meta">
+          <span class="pill">Part 2 × 5</span>
+          <span class="pill">Part 3 × 5</span>
+          <span class="pill">Band 7+ Lexis</span>
+          <span class="pill">Topic-Adaptive</span>
+        </div>
+      </header>
+
+      <nav class="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+          <li><a href="#how-to-use">How to Use These Scripts</a></li>
+          <li>
+            <a href="#p2-1">Part 2 · Script 1: My Father (Mentor / Helper)</a>
+          </li>
+          <li>
+            <a href="#p2-2"
+              >Part 2 · Script 2: My Cousin Lily (Creative Self-learner)</a
+            >
+          </li>
+          <li>
+            <a href="#p2-3">Part 2 · Script 3: A Road Trip Through Yunnan</a>
+          </li>
+          <li>
+            <a href="#p2-4"
+              >Part 2 · Script 4: TX Huaihai &amp; My Reading Nook</a
+            >
+          </li>
+          <li>
+            <a href="#p2-5">Part 2 · Script 5: My Vintage Camera &amp; Films</a>
+          </li>
+          <li>
+            <a href="#p3-1"
+              >Part 3 · Bank 1: Help, Encouragement, Advice, Plans, Pride</a
+            >
+          </li>
+          <li>
+            <a href="#p3-2"
+              >Part 3 · Bank 2: Children, Creativity, Imagination, Fame,
+              Self-learning</a
+            >
+          </li>
+          <li>
+            <a href="#p3-3"
+              >Part 3 · Bank 3: Travel, Transport, Music, Smiles, Phones</a
+            >
+          </li>
+          <li>
+            <a href="#p3-4">Part 3 · Bank 4: Buildings, Shopping, Relaxation</a>
+          </li>
+          <li>
+            <a href="#p3-5"
+              >Part 3 · Bank 5: Spending, Movies, Stories, Apps, Heirlooms,
+              Jobs</a
+            >
+          </li>
+        </ol>
+      </nav>
+
+      <section class="script" id="how-to-use">
+        <h2>How to Use These Scripts</h2>
+        <div class="script-body">
+          <p>
+            Each Part 2 script is built around a
+            <strong>core story</strong> with multiple "angles" you can
+            foreground depending on the cue card. Don't memorise word-for-word —
+            instead, <em>internalise the chunks</em> so you can recombine them
+            naturally on the day.
+          </p>
+          <p>
+            <strong>Step 1.</strong> Identify which of the 5 scripts your cue
+            card maps to (use the <em>coverage</em> tags).
+          </p>
+          <p>
+            <strong>Step 2.</strong> Select 2–3 paragraphs most relevant to the
+            four bullet points on the cue card.
+          </p>
+          <p>
+            <strong>Step 3.</strong> Open with a flexible lead, then deliver
+            those paragraphs in order, weaving in the cue card's specific
+            wording.
+          </p>
+          <p>
+            For Part 3, the 5 thematic banks give you ready-made arguments and
+            Band 7 collocations using a
+            <span class="hl">Position → Reason → Example → Counterpoint</span>
+            structure.
+          </p>
+        </div>
+      </section>
+
+      <h2 class="section-heading">Part 2 — The Five Universal Stories</h2>
+
+      <section class="script" id="p2-1">
+        <h2>Script 1 · My Father</h2>
+        <div class="subtitle">Theme: A versatile, admirable mentor figure</div>
+
+        <div class="coverage">
+          <strong>Cue cards this script covers (7)</strong>
+          <ul>
+            <li>A person who often <strong>helps others</strong></li>
+            <li>
+              A person who <strong>encouraged you to protect nature</strong>
+            </li>
+            <li>
+              A person who <strong>solved a problem in a smart way</strong>
+            </li>
+            <li>A person who <strong>makes plans a lot</strong></li>
+            <li>A time you felt <strong>proud of a family member</strong></li>
+            <li>
+              A time you <strong>encouraged someone</strong> to do something
+            </li>
+            <li>A time you <strong>gave advice</strong> to others</li>
+          </ul>
+        </div>
+
+        <div class="prompt-box">
+          <strong>Adaptation tip:</strong> Open with a sentence tailored to the
+          cue (e.g. "…<em>the most helpful person I know</em>" / "…<em
+            >a meticulous planner</em
+          >" / "…<em>incredibly resourceful</em>"). Then pick 2–3 paragraphs.
+        </div>
+
+        <div class="script-body">
+          <p>
+            The person I'd like to describe is my father, Mr. Chen, who has
+            undoubtedly been the most influential figure in my life. He's a
+            civil engineer in his early fifties, and what really makes him stand
+            out is this
+            <span class="hl"
+              >rare blend of meticulous planning, problem-solving ingenuity, and
+              a genuinely compassionate nature</span
+            >.
+          </p>
+
+          <p>
+            <strong>[Helper angle]</strong> Take his approach to helping others
+            — he's <span class="hl">the go-to person</span> in our entire
+            neighbourhood. Whenever a pipe bursts or an elderly resident needs
+            help filing paperwork, my father is the first to
+            <span class="hl">roll up his sleeves</span>. He doesn't help
+            reluctantly out of obligation; rather, he genuinely takes pleasure
+            in <span class="hl">lending a hand</span>, which I find deeply
+            admirable.
+          </p>
+
+          <p>
+            <strong>[Smart problem-solver angle]</strong> What's equally
+            remarkable is how he tackles challenges. About two years ago, our
+            community faced serious flooding every monsoon season. While most
+            residents merely complained, my father quietly studied the drainage
+            system, drafted a proposal, and persuaded the local authorities to
+            install permeable pavements — a low-cost fix that
+            <span class="hl">spared the neighbourhood years of frustration</span
+            >. It was an incredibly resourceful solution that nobody else had
+            even contemplated.
+          </p>
+
+          <p>
+            <strong>[Planner angle]</strong> He's also an obsessive planner —
+            and I mean that in the best possible way. Every Sunday evening, he
+            sits down with his leather-bound notebook and
+            <span class="hl">maps out the week ahead</span>, from work deadlines
+            to family activities. He even plans our holidays a year in advance —
+            which used to drive me crazy as a teenager, but now I see how it
+            gives our family a
+            <span class="hl">sense of structure and anticipation</span>.
+          </p>
+
+          <p>
+            <strong>[Nature angle]</strong> On top of that, he's deeply
+            passionate about environmental protection. Growing up, he constantly
+            encouraged me to cut down on waste, separate recycling diligently,
+            and appreciate the natural world. He'd take me hiking on weekends
+            and point out how human activity was reshaping the landscape — those
+            quiet conversations
+            <span class="hl">planted the seeds of environmental awareness</span>
+            in me, and I still recycle religiously to this day.
+          </p>
+
+          <p>
+            <strong>[Encourager / Advice-giver angle]</strong> There was also a
+            time he gently encouraged me to do something I was dreading —
+            applying to a competitive university overseas. I was convinced I'd
+            be rejected, but he sat me down and gave me what turned out to be
+            <span class="hl">life-changing advice</span>: that fear of rejection
+            is rarely a good reason to avoid trying. He didn't pressure me — he
+            simply outlined the pros and cons clearly and let me decide. I
+            applied, got in, and it transformed my life.
+          </p>
+
+          <p>
+            <strong>[Pride angle]</strong> What truly made me proud of him was
+            how he handled my grandmother's illness last year. He coordinated
+            her treatment, comforted the rest of the family, and managed his
+            work simultaneously — all
+            <span class="hl">without a word of complaint</span>. That moment
+            crystallised for me what real strength and integrity look like.
+            Honestly, he isn't just my father; he's my role model.
+          </p>
+        </div>
+
+        <div class="vocab">
+          <h4>Band 7+ Vocabulary &amp; Collocations</h4>
+          <div class="vocab-grid">
+            <div><b>a rare blend of</b> <span>— 罕见的结合</span></div>
+            <div>
+              <b>problem-solving ingenuity</b> <span>— 解决问题的智慧</span>
+            </div>
+            <div><b>the go-to person</b> <span>— 一找就找他的人</span></div>
+            <div><b>roll up one's sleeves</b> <span>— 撸起袖子干</span></div>
+            <div><b>lend a hand</b> <span>— 帮忙</span></div>
+            <div><b>resourceful solution</b> <span>— 机智的方案</span></div>
+            <div>
+              <b>spare sb. years of frustration</b>
+              <span>— 让某人免于多年困扰</span>
+            </div>
+            <div><b>an obsessive planner</b> <span>— 极致的计划者</span></div>
+            <div><b>map out the week ahead</b> <span>— 规划这一周</span></div>
+            <div><b>cut down on waste</b> <span>— 减少浪费</span></div>
+            <div><b>plant the seeds of</b> <span>— 种下…的种子</span></div>
+            <div><b>life-changing advice</b> <span>— 改变人生的建议</span></div>
+            <div><b>weigh the pros and cons</b> <span>— 权衡利弊</span></div>
+            <div>
+              <b>without a word of complaint</b> <span>— 毫无怨言</span>
+            </div>
+            <div>
+              <b>crystallise sth. for me</b> <span>— 让我清楚地看到…</span>
+            </div>
+            <div><b>integrity / role model</b> <span>— 正直 / 榜样</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p2-2">
+        <h2>Script 2 · My Cousin Lily</h2>
+        <div class="subtitle">Theme: A creative, self-driven young person</div>
+
+        <div class="coverage">
+          <strong>Cue cards this script covers (4)</strong>
+          <ul>
+            <li>A child who <strong>likes drawing</strong> very much</li>
+            <li>
+              A friend who <strong>learned something without a teacher</strong>
+            </li>
+            <li>
+              A <strong>famous person you would like to meet</strong> (Lily's
+              idol → yours too)
+            </li>
+            <li>A time you needed to <strong>use your imagination</strong></li>
+          </ul>
+        </div>
+
+        <div class="prompt-box">
+          <strong>Adaptation tip:</strong> If the cue is "use your imagination,"
+          reframe so <em>you</em> were the one imagining, with Lily as
+          inspiration. For "famous person," lead with the Miyazaki paragraph.
+        </div>
+
+        <div class="script-body">
+          <p>
+            I'd like to talk about my younger cousin Lily, who is one of the
+            most <span class="hl">creative and self-driven</span> people I know.
+            She's twelve years old, and she's been completely
+            <span class="hl">obsessed with drawing</span> for as long as I can
+            remember.
+          </p>
+
+          <p>
+            <strong>[Drawing child angle]</strong> I first noticed her talent
+            when she was barely five — she'd cover entire walls with sketches of
+            dragons, fairies, and imaginary creatures. What struck me was that
+            she wasn't copying anyone; the worlds she created came entirely
+            <span class="hl">from her own mind</span>. Today, she draws every
+            single day, often spending three to four hours after school
+            <span class="hl">refining her digital illustrations</span>. I
+            genuinely believe she's drawn to art because it gives her a private
+            universe where rules don't apply — a
+            <span class="hl">sanctuary of pure expression</span>.
+          </p>
+
+          <p>
+            <strong>[Self-learner angle]</strong> The remarkable thing is, she's
+            almost entirely self-taught. Our parents never enrolled her in
+            formal art classes — she simply
+            <span class="hl">picked up everything</span> through YouTube
+            tutorials, online communities, and sheer determination. She mastered
+            Procreate on her iPad when she was nine, and within a year, her work
+            had reached a level that left adults astonished. Honestly, I think
+            learning on her own gave her a
+            <span class="hl">distinctive stylistic voice</span> that no
+            traditional class would have nurtured. Of course, having a teacher
+            might have <span class="hl">accelerated the technical side</span>,
+            but the originality? That's purely hers.
+          </p>
+
+          <p>
+            <strong>[Famous person angle]</strong> Lily idolises Hayao Miyazaki,
+            the legendary Japanese animator behind Studio Ghibli films. If she —
+            or I — could meet anyone in the world, it would absolutely be him.
+            We both admire not just his artistic vision but the way he
+            <span class="hl">weaves profound themes</span> like environmentalism
+            and the loss of innocence into stories children can love. Ideally,
+            I'd love to meet him at the Studio Ghibli Museum in Tokyo and simply
+            watch him sketch — I think you can learn more from observing a
+            master at work than from any interview.
+          </p>
+
+          <p>
+            <strong>[Imagination angle]</strong> Watching Lily has actually
+            pushed me to <span class="hl">flex my own imagination</span>. Last
+            summer, she invited me to co-design an entirely fictional kingdom —
+            complete with maps, characters, languages, even political systems. I
+            had to invent backstories, dream up landscapes, and devise a writing
+            system overnight. It was surprisingly difficult at first because, as
+            adults, we get so used to dealing with
+            <span class="hl">concrete, practical problems</span>; pure
+            imagination feels almost like a forgotten muscle. But once I let go
+            of the urge to be "realistic," ideas
+            <span class="hl">started flowing thick and fast</span>. It was
+            genuinely exhilarating.
+          </p>
+
+          <p>
+            Overall, I admire Lily for staying so passionate and self-motivated.
+            In an age of endless distractions, her dedication is something quite
+            extraordinary, and I think she's going to make a real mark on the
+            creative world one day.
+          </p>
+        </div>
+
+        <div class="vocab">
+          <h4>Band 7+ Vocabulary &amp; Collocations</h4>
+          <div class="vocab-grid">
+            <div>
+              <b>creative and self-driven</b> <span>— 富有创造力且自驱</span>
+            </div>
+            <div><b>obsessed with</b> <span>— 痴迷于</span></div>
+            <div>
+              <b>refine digital illustrations</b> <span>— 完善数字插画</span>
+            </div>
+            <div>
+              <b>a sanctuary of pure expression</b>
+              <span>— 纯粹表达的避风港</span>
+            </div>
+            <div>
+              <b>almost entirely self-taught</b> <span>— 几乎完全自学</span>
+            </div>
+            <div><b>pick up a skill</b> <span>— 习得某项技能</span></div>
+            <div><b>sheer determination</b> <span>— 纯粹的毅力</span></div>
+            <div>
+              <b>distinctive stylistic voice</b> <span>— 独特的风格语言</span>
+            </div>
+            <div>
+              <b>accelerate the technical side</b>
+              <span>— 加速技术层面成长</span>
+            </div>
+            <div><b>idolise sb.</b> <span>— 崇拜某人</span></div>
+            <div>
+              <b>weave profound themes into</b> <span>— 把深刻主题融入</span>
+            </div>
+            <div><b>flex one's imagination</b> <span>— 锻炼想象力</span></div>
+            <div>
+              <b>concrete, practical problems</b>
+              <span>— 具体、实际的问题</span>
+            </div>
+            <div>
+              <b>a forgotten muscle</b> <span>— 被遗忘的肌肉(比喻)</span>
+            </div>
+            <div>
+              <b>ideas flow thick and fast</b> <span>— 灵感如泉涌</span>
+            </div>
+            <div><b>make a real mark on</b> <span>— 在…留下印记</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p2-3">
+        <h2>Script 3 · A Road Trip Through Yunnan</h2>
+        <div class="subtitle">Theme: A multi-purpose travel anecdote</div>
+
+        <div class="coverage">
+          <strong>Cue cards this script covers (5)</strong>
+          <ul>
+            <li>
+              A <strong>bicycle / motorcycle / car trip</strong> you would like
+              to go on
+            </li>
+            <li>
+              An event where you <strong>didn't enjoy the music</strong> played
+            </li>
+            <li>
+              A <strong>foreign country</strong> you would like to stay in for a
+              short period
+            </li>
+            <li>An occasion when <strong>many people were smiling</strong></li>
+            <li>
+              An occasion when you
+              <strong>were not allowed to use your mobile phone</strong>
+            </li>
+          </ul>
+        </div>
+
+        <div class="prompt-box">
+          <strong>Adaptation tip:</strong> Treat each paragraph as a "module."
+          If the cue is "no-phone occasion," lead with the Songzanlin Monastery
+          section. If it's "foreign country," swap in the Hokkaido paragraph as
+          the centrepiece.
+        </div>
+
+        <div class="script-body">
+          <p>
+            I'd like to describe a memorable road trip I took to
+            <span class="hl">Yunnan Province</span> last summer with three of my
+            closest university friends. We'd been planning this getaway for
+            months, dreaming of driving across the breathtaking landscapes of
+            southwestern China — rolling tea plantations, ancient towns, and
+            snow-capped mountains.
+          </p>
+
+          <p>
+            <strong>[Car / road trip angle]</strong> We chose to travel by car
+            for several reasons. Firstly, public transport simply couldn't reach
+            the remote villages we wanted to explore. Secondly, having our own
+            vehicle gave us <span class="hl">complete freedom</span> to stop
+            wherever we pleased — whether that was to photograph a rice terrace
+            at sunrise or sample a roadside noodle stall. We rented an SUV and
+            clocked over 1,500 kilometres in ten days. Compared with flying or
+            taking the train, driving forced us to
+            <span class="hl">slow down and savour the journey itself</span>, not
+            just the destination.
+          </p>
+
+          <p>
+            <strong>[Foreign country angle]</strong> If I could pick a similar
+            adventure abroad, I'd absolutely choose
+            <span class="hl">Japan, particularly Hokkaido</span>. I first got to
+            know the region through travel vlogs and Studio Ghibli landscapes —
+            its lavender fields and snowy onsen towns have been
+            <span class="hl">on my bucket list</span> for years. A short stay
+            there — say, three weeks — would let me experience the cuisine,
+            language, and rural culture without overwhelming homesickness or
+            burning through my savings. I'd cycle around Furano, try local
+            seafood in Hakodate, and visit small bookshops in Sapporo. The
+            reason it would be short is honestly practical: I'm still studying,
+            and a longer stay would interfere with coursework.
+          </p>
+
+          <p>
+            <strong>[Smiling occasion angle]</strong> One unforgettable moment
+            in Yunnan was visiting Lijiang Old Town's Sunday market. The whole
+            square was teeming with locals, tourists, performers, and food
+            vendors — and almost everyone was smiling. Children were chasing
+            balloons, an elderly couple was dancing to traditional Naxi music,
+            and travellers were striking up conversations with strangers. I
+            think people were smiling because the atmosphere was
+            <span class="hl">wonderfully unpretentious</span> — nobody was
+            rushing, nobody was glued to their phone, and there was this
+            collective sense that we'd all stepped into a
+            <span class="hl">slower, kinder version of life</span>.
+          </p>
+
+          <p>
+            <strong>[Disappointing music angle]</strong> Not everything went
+            smoothly, though. We attended a so-called "cultural music festival"
+            in Dali that I really didn't enjoy. It had been advertised as
+            authentic ethnic minority folk music, but it turned out to be a
+            loud, over-amplified pop concert with synthesiser beats
+            <span class="hl">drowning out the traditional instruments</span>.
+            The acoustics were dreadful, and the crowd was so densely packed
+            that we couldn't even see the stage. I left feeling thoroughly
+            disappointed, partly because I'd been genuinely curious about the
+            region's musical heritage, and partly because it felt like the
+            organisers were <span class="hl">cashing in on culture</span> rather
+            than honouring it.
+          </p>
+
+          <p>
+            <strong>[No-phone occasion angle]</strong> Another moment worth
+            mentioning was our visit to Songzanlin Monastery in Shangri-La.
+            Phones were strictly prohibited inside — we had to leave them at the
+            entrance. At first I felt uneasy, almost
+            <span class="hl">naked without my device</span>, and I kept reaching
+            for my pocket out of habit. But within an hour I realised how
+            peaceful it was. We just observed, prayed, and spoke with the monks.
+            It was honestly the most
+            <span class="hl">mindful and meaningful hour</span> of the entire
+            trip — and it made me question how much our phones quietly steal
+            from our experiences.
+          </p>
+
+          <p>
+            Looking back, that journey taught me that the best travel happens
+            when you
+            <span class="hl">slow down and engage with the moment</span> —
+            whether that's behind the wheel of a car or sitting silently in an
+            ancient temple.
+          </p>
+        </div>
+
+        <div class="vocab">
+          <h4>Band 7+ Vocabulary &amp; Collocations</h4>
+          <div class="vocab-grid">
+            <div>
+              <b>breathtaking landscapes</b> <span>— 令人屏息的景观</span>
+            </div>
+            <div>
+              <b>rolling tea plantations</b> <span>— 连绵起伏的茶园</span>
+            </div>
+            <div><b>clock 1,500 km</b> <span>— 跑了1500公里</span></div>
+            <div>
+              <b>savour the journey itself</b> <span>— 品味旅程本身</span>
+            </div>
+            <div><b>on one's bucket list</b> <span>— 心愿清单上</span></div>
+            <div><b>burn through savings</b> <span>— 烧光积蓄</span></div>
+            <div><b>teeming with</b> <span>— 挤满了</span></div>
+            <div><b>strike up a conversation</b> <span>— 攀谈起来</span></div>
+            <div>
+              <b>wonderfully unpretentious</b> <span>— 美妙地朴实无华</span>
+            </div>
+            <div>
+              <b>a slower, kinder version of life</b>
+              <span>— 慢一些、温柔一些的生活</span>
+            </div>
+            <div><b>over-amplified</b> <span>— 音量过大的</span></div>
+            <div>
+              <b>drown out the instruments</b> <span>— 盖过乐器声</span>
+            </div>
+            <div><b>cash in on culture</b> <span>— 拿文化挣钱</span></div>
+            <div><b>strictly prohibited</b> <span>— 严令禁止</span></div>
+            <div>
+              <b>naked without my device</b> <span>— 没有手机像没穿衣服</span>
+            </div>
+            <div>
+              <b>mindful and meaningful</b> <span>— 专注且有意义的</span>
+            </div>
+            <div><b>engage with the moment</b> <span>— 投入当下</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p2-4">
+        <h2>Script 4 · TX Huaihai &amp; My Reading Nook</h2>
+        <div class="subtitle">Theme: A two-in-one place script</div>
+
+        <div class="coverage">
+          <strong>Cue cards this script covers (3)</strong>
+          <ul>
+            <li>An <strong>interesting building</strong></li>
+            <li>A <strong>shopping mall</strong></li>
+            <li>
+              Your <strong>favourite place at home</strong> where you can relax
+            </li>
+          </ul>
+        </div>
+
+        <div class="prompt-box">
+          <strong>Adaptation tip:</strong> The first half is about TX Huaihai
+          (covers building + mall). The second half pivots to your reading nook
+          at home. Use whichever half — or both — depending on the prompt.
+        </div>
+
+        <div class="script-body">
+          <p>
+            I'd like to describe a place that's both
+            <span class="hl">architecturally fascinating</span> and personally
+            meaningful to me — it's <strong>TX Huaihai</strong>, a cultural
+            shopping complex in central Shanghai. And I'll also touch on my own
+            reading corner at home, since the two complement each other.
+          </p>
+
+          <p>
+            <strong>[Interesting building angle]</strong> TX Huaihai is unlike
+            any conventional mall you've ever seen. Located on Huaihai Middle
+            Road, the building features a striking
+            <span class="hl">minimalist exterior</span> with raw concrete walls,
+            exposed steel beams, and oversized geometric windows. The architects
+            clearly drew inspiration from old industrial warehouses but
+            reimagined them as a vibrant cultural hub. What makes it genuinely
+            interesting is how it <span class="hl">blurs the line</span> between
+            retail, art, and community space — it almost feels more like a
+            museum than a mall.
+          </p>
+
+          <p>
+            <strong>[Mall angle — function &amp; visits]</strong> Inside,
+            instead of the usual chain stores, you'll find independent designer
+            brands, niche perfumeries, vinyl record shops, art galleries, and
+            pop-up exhibitions that change every few weeks. I visit it about
+            once a month, mainly because I love browsing the bookshop on the
+            third floor and grabbing a flat white at one of the specialty cafés
+            tucked inside. I rarely
+            <span class="hl">spend a fortune</span> there — usually I just pick
+            up small things like stationery, an indie magazine, or a
+            limited-edition vinyl. The function of the building actually
+            <span class="hl">extends far beyond shopping</span> — it serves as a
+            creative gathering point for young Shanghainese, hosting talks, film
+            screenings, and even small concerts.
+          </p>
+
+          <p>
+            I think TX Huaihai represents
+            <span class="hl">a new wave of urban design</span> — one that
+            prioritises experience and culture over pure consumption. That's
+            exactly why I find it so worth talking about.
+          </p>
+
+          <p>
+            <strong>[Relaxing place at home angle]</strong> Now, when I
+            genuinely want to <span class="hl">switch off and decompress</span>,
+            my favourite spot is actually a small reading nook I've created in
+            my bedroom. It's tucked beside a tall window with a soft beige
+            armchair, a low wooden side table, and shelves crammed with novels
+            and travel guides. I drape a knitted throw over the chair, light a
+            sandalwood candle, and just <span class="hl">lose myself</span> in a
+            book or my journal.
+          </p>
+
+          <p>
+            I usually spend an hour there every evening — sometimes reading,
+            sometimes just watching the city lights flicker through the curtain.
+            The reason I find it so relaxing is that it's a
+            <span class="hl">complete sensory escape</span>. The natural light
+            by day, the warm glow at night, the faint smell of the candle, the
+            silence broken only by birdsong outside — it's the perfect
+            <span class="hl">antidote to the chaos</span> of city life. After a
+            long, draining day, even twenty minutes there can completely
+            <span class="hl">reset my mind</span>. I genuinely believe everyone
+            needs a small sanctuary like this — somewhere life can't reach you
+            for a while.
+          </p>
+        </div>
+
+        <div class="vocab">
+          <h4>Band 7+ Vocabulary &amp; Collocations</h4>
+          <div class="vocab-grid">
+            <div>
+              <b>architecturally fascinating</b> <span>— 建筑上引人入胜的</span>
+            </div>
+            <div><b>minimalist exterior</b> <span>— 极简风格的外观</span></div>
+            <div>
+              <b>raw concrete / exposed steel beams</b>
+              <span>— 清水混凝土/外露钢梁</span>
+            </div>
+            <div>
+              <b>oversized geometric windows</b> <span>— 超大几何窗</span>
+            </div>
+            <div>
+              <b>a vibrant cultural hub</b> <span>— 充满活力的文化中心</span>
+            </div>
+            <div>
+              <b>blur the line between</b> <span>— 模糊…之间的界限</span>
+            </div>
+            <div><b>chain stores</b> <span>— 连锁店</span></div>
+            <div><b>niche perfumeries</b> <span>— 小众香水店</span></div>
+            <div><b>pop-up exhibitions</b> <span>— 快闪展览</span></div>
+            <div><b>spend a fortune</b> <span>— 花一大笔钱</span></div>
+            <div><b>extend far beyond</b> <span>— 远不止于…</span></div>
+            <div>
+              <b>a new wave of urban design</b> <span>— 城市设计的新浪潮</span>
+            </div>
+            <div>
+              <b>switch off and decompress</b> <span>— 断电、放松</span>
+            </div>
+            <div><b>tucked beside a window</b> <span>— 藏在窗边</span></div>
+            <div><b>lose oneself in a book</b> <span>— 沉浸在书中</span></div>
+            <div>
+              <b>a complete sensory escape</b> <span>— 全方位感官的避世</span>
+            </div>
+            <div>
+              <b>the antidote to the chaos</b> <span>— 喧嚣的解药</span>
+            </div>
+            <div><b>reset one's mind</b> <span>— 让大脑重启</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p2-5">
+        <h2>Script 5 · My Vintage Camera &amp; Films</h2>
+        <div class="subtitle">
+          Theme: A meaningful object linking media, family, career &amp; daily
+          life
+        </div>
+
+        <div class="coverage">
+          <strong>Cue cards this script covers (8)</strong>
+          <ul>
+            <li>
+              An item on which you <strong>spent more than expected</strong>
+            </li>
+            <li>A movie you watched and <strong>enjoyed recently</strong></li>
+            <li>
+              Something <strong>important kept in your family</strong> for a
+              long time
+            </li>
+            <li>A <strong>story you have read recently</strong></li>
+            <li>A <strong>program or app</strong> on your computer or phone</li>
+            <li>
+              Something you <strong>can't live without</strong> (not
+              phone/computer)
+            </li>
+            <li>Your <strong>perfect job</strong></li>
+            <li>A movie you <strong>felt disappointed</strong> about</li>
+          </ul>
+        </div>
+
+        <div class="prompt-box">
+          <strong>Adaptation tip:</strong> The most modular script. Pick 2–3
+          paragraphs matching the cue card and lead with that paragraph's
+          opening sentence as your topic sentence. The camera is the "anchor"
+          tying everything together.
+        </div>
+
+        <div class="script-body">
+          <p>
+            I'd like to talk about something deeply meaningful to me — my
+            grandfather's <span class="hl">vintage Leica film camera</span>,
+            which has become a kind of bridge between my passion for
+            storytelling and my career aspirations.
+          </p>
+
+          <p>
+            <strong>[Family heirloom angle]</strong> The camera was made in the
+            1970s. My grandfather, who worked as a journalist, used it for
+            decades to document everything from family birthdays to historic
+            events. When he passed away three years ago, my father
+            <span class="hl">handed it down to me</span>. It's something our
+            family has cherished for nearly fifty years, and now it sits proudly
+            on my desk — not just as a tool, but as
+            <span class="hl">a tangible piece of family history</span>. Every
+            scratch on the body tells a story.
+          </p>
+
+          <p>
+            <strong>[Overspending angle]</strong> When I decided to restore and
+            use it actively, I ended up spending way more than I'd anticipated.
+            Originally I'd budgeted around 1,000 yuan for film and a basic
+            service, but I ended up paying nearly 5,000 yuan once I factored in
+            lens repairs, film stocks, scanning equipment, and a darkroom
+            subscription. I overspent because, frankly, I'd
+            <span class="hl">underestimated the true cost</span> of analogue
+            photography — every roll of film is essentially a luxury item now.
+            Honestly, though, I don't regret a single yuan; I see it as
+            <span class="hl">an investment in something irreplaceable</span>.
+          </p>
+
+          <p>
+            <strong>[Can't-live-without angle]</strong> I genuinely can't
+            imagine life without this camera. While most people would say their
+            phone is essential, for me it's the camera. Carrying it forces me to
+            <span class="hl"
+              >slow down, observe the world, and capture moments
+              deliberately</span
+            >. It's grounded my mental health more than any meditation app ever
+            has — there's something almost meditative about composing a single
+            frame and waiting two weeks to see the result.
+          </p>
+
+          <p>
+            <strong>[App angle]</strong> Speaking of apps, I do rely heavily on
+            <strong>Halide</strong> and <strong>VSCO</strong> on my phone for
+            digital photography and editing. I discovered Halide through a
+            YouTube review and I've used it almost daily for two years. What I
+            love about it is its <span class="hl">intuitive interface</span> and
+            <span class="hl">professional-grade controls</span> — it basically
+            transforms my phone into a serious camera. I'd say apps like this
+            have made photography far more accessible without sacrificing
+            quality.
+          </p>
+
+          <p>
+            <strong>[Movie enjoyed angle]</strong> My passion for visual
+            storytelling extends to films. Recently, I rewatched
+            <em>The Secret Life of Walter Mitty</em>, and I enjoyed it just as
+            much as the first time. I watched it alone at home one rainy weekend
+            in autumn. The cinematography is absolutely
+            <span class="hl">breathtaking</span>, and the protagonist's journey
+            resonated deeply — it's about
+            <span class="hl">finding the courage to live life fully</span>
+            rather than just imagining it. I rewatched it because I needed
+            inspiration during a stressful exam period, and it delivered exactly
+            that.
+          </p>
+
+          <p>
+            <strong>[Disappointing movie angle]</strong> That said, not every
+            film hits the mark. I recently watched a heavily marketed Chinese
+            sci-fi blockbuster that left me
+            <span class="hl">thoroughly underwhelmed</span>. I'd gone because
+            the trailer looked spectacular and the early reviews were glowing,
+            but the plot turned out to be <span class="hl">incoherent</span>,
+            the characters were <span class="hl">paper-thin</span>, and it
+            relied almost entirely on visual effects to mask a hollow story. I
+            left the cinema feeling cheated, and it made me far more sceptical
+            of <span class="hl">hyped-up reviews</span> and aggressive
+            marketing.
+          </p>
+
+          <p>
+            <strong>[Story read recently angle]</strong> I also recently read a
+            short story called <em>The Story of an Hour</em> by Kate Chopin.
+            It's a haunting tale about a woman's brief, secret moment of
+            perceived freedom after hearing her husband has died. I read it on
+            my commute, and it deeply moved me — it taught me how
+            <span class="hl"
+              >a single hour can contain a lifetime of emotion</span
+            >, and how literature can compress vast feelings into a few hundred
+            words.
+          </p>
+
+          <p>
+            <strong>[Perfect job angle]</strong> All of this leads to my dream
+            career — to become a
+            <span class="hl">documentary filmmaker or photojournalist</span>. To
+            me, that would be the perfect job because it combines storytelling,
+            travel, and visual art into a single profession. To get there, I'd
+            need to learn cinematography, master editing software like DaVinci
+            Resolve, and develop strong interview and research skills. I'd also
+            need patience and emotional intelligence to
+            <span class="hl">capture authentic human stories</span>. I first
+            heard about this path from a Vimeo documentary that completely
+            changed how I saw the medium. It's not an easy career — but it's
+            <span class="hl">deeply meaningful work</span>, and I'm genuinely
+            working towards it, one frame at a time.
+          </p>
+        </div>
+
+        <div class="vocab">
+          <h4>Band 7+ Vocabulary &amp; Collocations</h4>
+          <div class="vocab-grid">
+            <div>
+              <b>vintage Leica film camera</b> <span>— 复古徕卡胶片相机</span>
+            </div>
+            <div><b>hand sth. down to sb.</b> <span>— 传给(后辈)</span></div>
+            <div>
+              <b>a tangible piece of family history</b>
+              <span>— 家族历史的实物</span>
+            </div>
+            <div>
+              <b>underestimate the true cost</b> <span>— 低估真实成本</span>
+            </div>
+            <div>
+              <b>an investment in something irreplaceable</b>
+              <span>— 对无可替代之物的投资</span>
+            </div>
+            <div>
+              <b>capture moments deliberately</b> <span>— 用心捕捉瞬间</span>
+            </div>
+            <div><b>intuitive interface</b> <span>— 直观的界面</span></div>
+            <div>
+              <b>professional-grade controls</b> <span>— 专业级控制</span>
+            </div>
+            <div><b>visual storytelling</b> <span>— 视觉叙事</span></div>
+            <div>
+              <b>breathtaking cinematography</b> <span>— 惊艳的摄影</span>
+            </div>
+            <div><b>resonate deeply with</b> <span>— 与…深深共鸣</span></div>
+            <div>
+              <b>find the courage to live fully</b>
+              <span>— 鼓起勇气尽情生活</span>
+            </div>
+            <div><b>thoroughly underwhelmed</b> <span>— 极其失望</span></div>
+            <div>
+              <b>incoherent plot / paper-thin characters</b>
+              <span>— 不连贯的剧情/扁平的角色</span>
+            </div>
+            <div><b>hyped-up reviews</b> <span>— 被吹捧过头的评论</span></div>
+            <div><b>a haunting tale</b> <span>— 萦绕心头的故事</span></div>
+            <div>
+              <b>compress vast feelings</b> <span>— 压缩巨大的情感</span>
+            </div>
+            <div>
+              <b>documentary filmmaker / photojournalist</b>
+              <span>— 纪录片导演/摄影记者</span>
+            </div>
+            <div>
+              <b>capture authentic human stories</b>
+              <span>— 捕捉真实的人间故事</span>
+            </div>
+            <div>
+              <b>deeply meaningful work</b> <span>— 极具意义的工作</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2 class="section-heading">Part 3 — Five Thematic Answer Banks</h2>
+
+      <section class="script" id="p3-1">
+        <h2>Part 3 · Bank 1 — Help, Encouragement, Advice, Plans, Pride</h2>
+        <div class="subtitle">Pairs with Part 2 Script 1 (My Father)</div>
+
+        <div class="coverage">
+          <strong>Question topics covered:</strong> 乐于助人 · 鼓励保护自然 ·
+          机智解决问题 · 常做计划 · 让你骄傲家人 · 鼓励别人 · 给别人建议
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q1. Should children help their parents with household chores?
+            <span class="tag">helping</span>
+          </div>
+          <div class="a">
+            Absolutely — I'd say it's
+            <span class="hl">essential rather than optional</span>. Helping with
+            chores instils a sense of responsibility from an early age and
+            teaches kids that family is a shared endeavour. It also
+            <span class="hl">cultivates practical life skills</span> — cooking,
+            tidying, basic budgeting — that they'll inevitably need as adults.
+            That said, parents should be careful not to overload them; the
+            chores must be
+            <span class="hl">age-appropriate and balanced</span> with study and
+            play, otherwise it could feel more like punishment than
+            participation.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q2. Why are some people more willing to help others than others?
+            <span class="tag">helping</span>
+          </div>
+          <div class="a">
+            I think it largely
+            <span class="hl">comes down to upbringing and personal values</span
+            >. Those raised in supportive, generous households tend to
+            internalise empathy as <span class="hl">a default response</span>,
+            whereas people who grew up in highly competitive environments may
+            instinctively guard their own resources. Personality also matters —
+            naturally extroverted, optimistic individuals often find helping
+            rewarding rather than draining. And
+            <span class="hl">past experience</span> plays a huge role: those
+            who've received kindness in tough times are usually the first to
+            <span class="hl">pay it forward</span>.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q3. Is it important to plan ahead? <span class="tag">planning</span>
+          </div>
+          <div class="a">
+            I'd say it's crucial, especially in today's
+            <span class="hl">fast-paced world</span>. Without a roadmap, it's
+            easy to drift aimlessly or be overwhelmed by competing demands. Good
+            planning provides direction,
+            <span class="hl">reduces decision fatigue</span>, and helps you
+            anticipate setbacks before they spiral. However, there's a balance
+            to strike —
+            <span class="hl">over-planning can stifle spontaneity</span> and
+            adaptability, both of which are equally valuable. Personally, I plan
+            the structure of my week but leave my weekends loose.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q4. Should children plan their future careers?
+            <span class="tag">planning</span>
+          </div>
+          <div class="a">
+            To some extent, yes, but <span class="hl">cautiously</span>.
+            Encouraging children to think about their interests and strengths is
+            healthy and motivates them to work hard. But expecting them to
+            commit to a specific career at age ten or twelve is unrealistic —
+            their preferences will inevitably evolve as they're
+            <span class="hl">exposed to new fields</span>. The far more useful
+            skill is teaching them
+            <span class="hl">how to plan and adapt</span>, rather than locking
+            them into a fixed path. The labour market itself is changing too
+            quickly for rigid plans to make sense.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q5. What's the difference between encouraging someone and pressuring
+            someone? <span class="tag">encouragement</span>
+          </div>
+          <div class="a">
+            That's a <span class="hl">subtle but vital distinction</span>.
+            Encouragement comes from a place of belief in someone's potential
+            and respects their autonomy — you offer support, but
+            <span class="hl">ultimately let them choose</span>. Pressure, on the
+            other hand, often involves expectations, guilt, or even threats — it
+            strips away the person's agency. Put simply,
+            <span class="hl">encouragement empowers; pressure suffocates</span>.
+            The litmus test is how you react when the person says no. If you can
+            accept that gracefully, you were encouraging.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q6. How can leaders encourage their employees?
+            <span class="tag">encouragement</span>
+          </div>
+          <div class="a">
+            Effective leaders use a blend of
+            <span class="hl"
+              >recognition, autonomy, and growth opportunities</span
+            >. Publicly acknowledging good work — even with a simple thank-you —
+            can be hugely motivating, because people fundamentally want to feel
+            seen. Secondly, granting employees
+            <span class="hl">ownership over their projects</span> builds
+            confidence and signals trust. And thirdly, providing training,
+            mentorship, or stretch assignments shows the company is genuinely
+            <span class="hl">invested in their long-term growth</span> — far
+            more powerful than any one-off bonus.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q7. Should people prepare before giving advice?
+            <span class="tag">advice</span>
+          </div>
+          <div class="a">
+            Definitely. Giving
+            <span class="hl">unsolicited or uninformed advice</span> can do more
+            harm than good. Before offering guidance, you should fully
+            understand the situation, listen carefully, and honestly consider
+            whether you're qualified to weigh in. Otherwise, your suggestions
+            may be irrelevant or even misleading. The best advisors
+            <span class="hl">ask thoughtful questions before they speak</span> —
+            they treat advice as a dialogue, not a monologue.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q8. Which is more helpful: advice from older people or from friends
+            of the same age? <span class="tag">advice</span>
+          </div>
+          <div class="a">
+            Both have their merits and the answer really
+            <span class="hl">depends on the issue at hand</span>. Older people
+            bring
+            <span class="hl"
+              >life experience, perspective, and a longer view</span
+            >
+            — they've already navigated dilemmas you're facing for the first
+            time. Peers, however, share your
+            <span class="hl">cultural context</span> — they understand modern
+            dating, workplace dynamics, or technology in a way older generations
+            might not. Ideally, you'd
+            <span class="hl">triangulate input</span> from both, then make your
+            own call.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q9. How can helping others benefit the helper?
+            <span class="tag">helping</span>
+          </div>
+          <div class="a">
+            There are real psychological and social benefits, well-documented in
+            research. Numerous studies have shown that altruistic behaviour
+            triggers
+            <span class="hl">a "helper's high"</span> — a release of endorphins
+            that boosts mood. It also strengthens social bonds, enhances
+            <span class="hl">self-esteem and a sense of purpose</span>, and even
+            correlates with longer life expectancy. So in many ways, helping
+            others is also a form of <span class="hl">self-care</span> —
+            counter-intuitive, but true.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q10. On what occasions would adults be proud of themselves?
+            <span class="tag">pride</span>
+          </div>
+          <div class="a">
+            I think adults tend to feel proud during
+            <span class="hl">milestone moments</span> — landing a tough
+            promotion, finishing a marathon, buying their first home, or seeing
+            their children flourish. But equally meaningful are the
+            <span class="hl">quieter, everyday wins</span>: standing up for a
+            friend, mastering a difficult skill, or simply staying patient under
+            pressure. The deepest pride, in my view, comes from acts of
+            <span class="hl">moral courage</span> rather than external
+            achievements.
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p3-2">
+        <h2>
+          Part 3 · Bank 2 — Children, Creativity, Imagination, Fame,
+          Self-learning
+        </h2>
+        <div class="subtitle">Pairs with Part 2 Script 2 (My Cousin Lily)</div>
+
+        <div class="coverage">
+          <strong>Question topics covered:</strong> 喜欢画画孩子 · 想见名人 ·
+          自学朋友 · 发挥想象力
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q1. What is the right age for a child to learn drawing?
+            <span class="tag">drawing</span>
+          </div>
+          <div class="a">
+            Honestly, I don't think there's
+            <span class="hl">a fixed "right age"</span> — most children start
+            scribbling spontaneously around age two or three, and that early
+            exploration is invaluable. Formal lessons probably make sense from
+            around six or seven, when their
+            <span class="hl">fine motor skills</span> and attention spans can
+            sustain structured practice. Before that, the focus should be on
+            <span class="hl">play-based exposure</span> — letting them
+            experiment with crayons, watercolour, and finger paint without
+            judgment.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q2. Why do most children draw more often than adults do?
+            <span class="tag">drawing</span>
+          </div>
+          <div class="a">
+            A few reasons. Firstly, children have
+            <span class="hl">fewer inhibitions</span> — they don't worry about
+            whether their work is "good," they just create. Adults, sadly,
+            become <span class="hl">paralysed by self-criticism</span>.
+            Secondly, children have more unstructured time and
+            <span class="hl">unfiltered curiosity</span>, while adults are tied
+            up with work and responsibilities. And thirdly, drawing is genuinely
+            how children <span class="hl">make sense of the world</span> — for
+            adults, language has largely replaced that function.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q3. Should drawing be a compulsory subject in primary school?
+            <span class="tag">drawing</span>
+          </div>
+          <div class="a">
+            Yes, I'd strongly support that. Drawing isn't just about producing
+            pretty pictures — it develops
+            <span class="hl"
+              >visual literacy, fine motor coordination, and creative
+              problem-solving</span
+            >, all of which transfer to other subjects. It also gives children a
+            <span class="hl">non-verbal outlet</span> for emotions they can't
+            yet articulate. The only caveat is that schools must avoid grading
+            it harshly, because the moment art becomes performance-based, kids
+            start <span class="hl">losing the joy</span> that makes it valuable
+            in the first place.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q4. Is it necessary to keep learning after graduating from school?
+            <span class="tag">self-learning</span>
+          </div>
+          <div class="a">
+            Absolutely — I'd argue it's
+            <span class="hl">non-negotiable in today's economy</span>.
+            Industries are evolving so rapidly that the skills you graduate with
+            may be partly obsolete within a decade.
+            <span class="hl">Lifelong learning</span> isn't just about career
+            survival, though; it keeps the mind sharp, opens up new social
+            circles, and prevents the intellectual stagnation that often
+            <span class="hl">creeps in with age</span>. Whether through online
+            courses, reading, or hobbies, learning should never feel like
+            something you "finish."
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q5. Is it better to focus on a few subjects or learn many subjects?
+            <span class="tag">self-learning</span>
+          </div>
+          <div class="a">
+            Both have value, and ideally schooling should combine them.
+            <span class="hl">A broad foundation</span> in many subjects gives
+            students cultural literacy, exposes them to different ways of
+            thinking, and helps them
+            <span class="hl">discover their genuine interests</span>. But at
+            some point, specialisation matters — depth, not just breadth, is
+            what creates expertise and meaningful contribution. The current
+            trend in education leans toward
+            <span class="hl">"T-shaped" learners</span>: broad knowledge across
+            many areas, with deep mastery in one or two.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q6. Are children born smart, or do they learn to become smart?
+            <span class="tag">creativity</span>
+          </div>
+          <div class="a">
+            It's almost certainly
+            <span class="hl">a combination of both</span> — what psychologists
+            call the <span class="hl">"nature-versus-nurture" interplay</span>.
+            Genetics may set a baseline for things like processing speed or
+            memory, but environment plays an enormous role. A child raised with
+            <span class="hl"
+              >rich linguistic input, encouragement, and intellectual
+              stimulation</span
+            >
+            will almost always outperform a more "naturally gifted" child raised
+            in deprivation. So innate ability matters, but it's only the
+            starting point — effort and environment do most of the work.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q7. Why do some children seem to have more imagination than others?
+            <span class="tag">imagination</span>
+          </div>
+          <div class="a">
+            A lot of it relates to
+            <span class="hl">how much freedom they're given</span>. Children
+            whose parents read to them frequently, allow open-ended play, and
+            limit screen time tend to develop richer imaginations because their
+            brains have been
+            <span class="hl">trained to fill in the gaps</span>. By contrast,
+            children fed a constant stream of pre-packaged content rarely need
+            to invent anything for themselves. Personality matters too —
+            introverted children often spend more time
+            <span class="hl">in their inner world</span>, which can deepen
+            imaginative thinking.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q8. What kinds of jobs need imagination?
+            <span class="tag">imagination</span>
+          </div>
+          <div class="a">
+            Far more than people realise. Obvious examples include
+            <span class="hl">creative industries</span> — writers, designers,
+            filmmakers, advertisers — but I'd argue scientists, engineers, and
+            entrepreneurs are equally dependent on imagination. Theoretical
+            physicists, for instance, have to
+            <span class="hl">visualise phenomena</span> that can never be
+            directly observed. Even teachers and therapists rely on imagination
+            to <span class="hl">step into someone else's perspective</span>.
+            Honestly, any job that requires innovation needs it.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q9. Does modern technology help or hurt people's imagination?
+            <span class="tag">imagination</span>
+          </div>
+          <div class="a">
+            It genuinely cuts both ways. On one hand, technology gives people
+            unprecedented tools to
+            <span class="hl">externalise their ideas</span> — design software,
+            AI collaborators, virtual worlds. On the other, the
+            <span class="hl">passive consumption</span> of short-form video and
+            algorithmic feeds can dull creative thinking, because the work of
+            imagining is being <span class="hl">outsourced to the screen</span>.
+            The healthiest approach is using technology as a tool, not a
+            substitute — create with it, don't just consume through it.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q10. Has the definition of "fame" changed in the age of social
+            media?
+            <span class="tag">fame</span>
+          </div>
+          <div class="a">
+            Drastically. Traditional fame was
+            <span class="hl">earned through long apprenticeship</span> in a
+            craft — actors, scientists, athletes who proved themselves over
+            years. Social media fame, by contrast, can be
+            <span class="hl">manufactured overnight</span> through viral
+            content, often with no underlying talent. This has made fame far
+            more accessible, but also far more
+            <span class="hl">disposable and shallow</span>. The half-life of an
+            internet celebrity is sometimes a matter of weeks, whereas figures
+            like Einstein or Hepburn remain iconic decades later.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q11. Do people become famous because of their talent?
+            <span class="tag">fame</span>
+          </div>
+          <div class="a">
+            Talent certainly helps, but it's rarely sufficient on its own.
+            Becoming famous usually requires a
+            <span class="hl"
+              >combination of talent, timing, persistence, and visibility</span
+            >. Plenty of remarkably talented people remain obscure because they
+            lack <span class="hl">a platform or the right connections</span>,
+            while less gifted but well-marketed individuals can dominate
+            headlines. So I'd say talent is the foundation, but fame is built on
+            top of it through a mixture of luck, hard work, and self-promotion.
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p3-3">
+        <h2>Part 3 · Bank 3 — Travel, Transport, Music, Smiles, Phones</h2>
+        <div class="subtitle">
+          Pairs with Part 2 Script 3 (Yunnan Road Trip)
+        </div>
+
+        <div class="coverage">
+          <strong>Question topics covered:</strong> 自行车/汽车旅行 ·
+          不喜欢音乐活动 · 外国短期停留 · 微笑场合 · 禁用手机场合
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q1. Do you think air pollution comes mostly from mobile vehicles?
+            <span class="tag">transport</span>
+          </div>
+          <div class="a">
+            Vehicles are
+            <span class="hl"
+              >a major contributor, but certainly not the only one</span
+            >. In big cities, exhaust emissions can account for a substantial
+            share of urban air pollution — particularly for nitrogen oxides and
+            fine particulates. However, factories, coal-fired power plants, and
+            even agricultural activities also play significant roles. So the
+            most effective response isn't just
+            <span class="hl">curbing private car use</span> — it requires a
+            coordinated push toward cleaner energy across all sectors.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q2. What are the benefits of travelling by bicycle compared with by
+            car? <span class="tag">transport</span>
+          </div>
+          <div class="a">
+            Cycling has clear advantages on multiple fronts. Environmentally, it
+            produces <span class="hl">zero emissions</span>; physically, it's
+            <span class="hl">excellent low-impact exercise</span>; and
+            economically, it's far cheaper. There's also a more subtle benefit —
+            cycling forces you to
+            <span class="hl">engage with your surroundings</span>, noticing
+            details a driver would speed past. The trade-off is obviously range
+            and weather, so cycling works best for short urban trips rather than
+            cross-country journeys.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q3. What are the benefits of living in a foreign country for a short
+            time? <span class="tag">travel</span>
+          </div>
+          <div class="a">
+            A short stay abroad can be
+            <span class="hl">genuinely transformative</span>. You're forced out
+            of your comfort zone, which sharpens problem-solving skills and
+            adaptability. You also gain
+            <span class="hl">first-hand cultural insight</span> that no
+            documentary or book can replicate — small things like eating habits,
+            body language, and humour. And socially, it broadens your worldview
+            and often leads to lifelong friendships. The "short" timeframe is
+            actually a feature, not a bug — it concentrates the learning curve.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q4. Is it better to travel alone or with friends?
+            <span class="tag">travel</span>
+          </div>
+          <div class="a">
+            It really comes down to
+            <span class="hl">what you want from the trip</span>. Travelling
+            alone offers freedom, deep self-reflection, and forces you to
+            interact with locals — you grow in ways that are hard to replicate.
+            Travelling with friends, on the other hand, gives you shared
+            memories, safety in numbers, and the comfort of
+            <span class="hl">familiar company</span> when things go wrong.
+            Personally, I'd choose solo travel for cultural immersion and group
+            travel for adventure or nightlife.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q5. How important is music in creating the atmosphere at a social
+            event? <span class="tag">music</span>
+          </div>
+          <div class="a">
+            I'd say music is absolutely
+            <span class="hl">central to the emotional fabric</span> of any
+            social event. The right soundtrack can transform a dull gathering
+            into something memorable — it sets the energy, signals transitions,
+            and even <span class="hl">primes people's emotions</span> in subtle
+            ways. A good DJ at a wedding can carry guests from teary nostalgia
+            to ecstatic dancing within minutes. Conversely, badly chosen or
+            excessively loud music can ruin the mood entirely.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q6. Will live music be replaced by recorded music in the future?
+            <span class="tag">music</span>
+          </div>
+          <div class="a">
+            I really don't think so. Recorded music has of course transformed
+            how we consume music day-to-day, but live performance offers
+            something <span class="hl">fundamentally different</span> — energy,
+            spontaneity, and a shared experience between artist and audience.
+            People crave that
+            <span class="hl">communal, unrepeatable</span> feeling, which is
+            precisely why concert tickets keep selling out at premium prices. If
+            anything, live music has become even more valuable in a digital age.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q7. Why do most people smile in photographs?
+            <span class="tag">smiles</span>
+          </div>
+          <div class="a">
+            Partly cultural conditioning — we're taught from childhood that
+            smiling looks "presentable" — and partly because photographs
+            <span class="hl">freeze a moment in time</span>, and we naturally
+            want that frozen moment to reflect happiness rather than
+            indifference. There's also a social dimension: a smile signals
+            <span class="hl"
+              >friendliness, approachability, and emotional warmth</span
+            >, which is how most people want to be remembered. Curiously, this
+            convention is fairly modern; in 19th-century portraits, people
+            rarely smiled.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q8. Can smiling actually make people feel happier?
+            <span class="tag">smiles</span>
+          </div>
+          <div class="a">
+            Yes — there's compelling research behind this, known as the
+            <span class="hl">"facial feedback hypothesis"</span>. The act of
+            smiling, even when forced, can subtly
+            <span class="hl"
+              >trigger the release of endorphins and serotonin</span
+            >, marginally lifting your mood. It's not a cure for genuine
+            sadness, but in low-stakes moments, choosing to smile really can
+            <span class="hl">nudge your emotional state upward</span>. Combined
+            with the social effect — smiles invite warmer responses from others
+            — the impact compounds.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q9. Why do some people feel anxious when they cannot use their
+            phones? <span class="tag">phones</span>
+          </div>
+          <div class="a">
+            It's a phenomenon called <span class="hl">"nomophobia"</span> — the
+            fear of being without a mobile phone — and it's surprisingly common.
+            Phones have become an extension of our identity: they hold our
+            contacts, payments, photos, and entertainment. Being separated from
+            them feels like losing <span class="hl">a security blanket</span>.
+            There's also a deeper issue — many of us use phones to
+            <span class="hl">avoid uncomfortable silence or solitude</span>, so
+            removing the device exposes anxieties we'd been distracting
+            ourselves from.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q10. How can people reduce their screen time?
+            <span class="tag">phones</span>
+          </div>
+          <div class="a">
+            There are several effective strategies. The most powerful is
+            <span class="hl">redesigning your environment</span> — leaving the
+            phone in another room while you sleep, or switching it to greyscale,
+            which makes the apps far less seductive. Setting
+            <span class="hl">specific phone-free windows</span> — meals, the
+            first hour of the morning — is also remarkably effective. And on the
+            substitution side, having a
+            <span class="hl">satisfying offline alternative</span> ready, like a
+            book or a hobby, helps fill the void that scrolling used to occupy.
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p3-4">
+        <h2>Part 3 · Bank 4 — Buildings, Shopping, Relaxation</h2>
+        <div class="subtitle">
+          Pairs with Part 2 Script 4 (TX Huaihai &amp; Reading Nook)
+        </div>
+
+        <div class="coverage">
+          <strong>Question topics covered:</strong> 有趣建筑 · 商场 ·
+          家里放松地方
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q1. Is it worth spending a lot of money on the exterior of a
+            building? <span class="tag">architecture</span>
+          </div>
+          <div class="a">
+            In many cases, yes. A building's exterior is its
+            <span class="hl">public face</span> — it shapes how the city feels
+            and signals what the institution stands for. Iconic exteriors like
+            the Sydney Opera House have become entire cities' brand identities.
+            That said, beauty shouldn't
+            <span class="hl">come at the expense of</span> usability or
+            sustainability. The best buildings strike a balance between
+            aesthetics and function — neither pure spectacle nor a soulless box.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q2. Why do people like to visit historical sites?
+            <span class="tag">architecture</span>
+          </div>
+          <div class="a">
+            Historical sites offer something modern attractions can't —
+            <span class="hl">a tangible link to the past</span>. Standing inside
+            a thousand-year-old temple connects you to generations of human
+            experience in a way no documentary can. Many people are also drawn
+            to the <span class="hl">aesthetic and craftsmanship</span> of old
+            buildings, which often surpasses anything we build today. And
+            practically speaking, these sites help us understand how our
+            ancestors lived, governed, and worshipped.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q3. What are the challenges in preserving old buildings?
+            <span class="tag">architecture</span>
+          </div>
+          <div class="a">
+            Preservation is a constant balancing act. Financially, restoration
+            is enormously expensive — sourcing original materials and skilled
+            craftsmen often costs more than building from scratch. There's also
+            <span class="hl"
+              >the tension between authenticity and modern needs</span
+            >: how do you add plumbing or accessibility ramps without
+            compromising historical integrity? And finally, urban development
+            pressure is relentless — old buildings often sit on prime land that
+            developers want to <span class="hl">repurpose for high-rises</span>.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q4. Why do people buy things they don't need?
+            <span class="tag">shopping</span>
+          </div>
+          <div class="a">
+            A combination of psychological and social drivers. Shopping releases
+            dopamine, so it functions as
+            <span class="hl">a quick mood boost</span> — what people call
+            "retail therapy." Advertising and social media constantly
+            <span class="hl">manufacture artificial desires</span>, making us
+            feel inadequate without the latest product. There's also a status
+            element: people buy things to
+            <span class="hl">signal identity or belonging</span>. Recognising
+            these drivers is the first step to spending more intentionally.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q5. What are the advantages of shopping in a mall compared with
+            online? <span class="tag">shopping</span>
+          </div>
+          <div class="a">
+            Malls offer <span class="hl">a multi-sensory experience</span> that
+            online shopping simply can't match. You can try clothes on, feel
+            fabric textures, test electronics, and assess fit before buying —
+            which dramatically reduces returns. Malls are also
+            <span class="hl">social spaces</span>: people come for
+            entertainment, dining, and time with family, not just to buy things.
+            Online shopping wins on convenience and price, but malls deliver
+            experience, immediacy, and human connection.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q6. How can a shopping mall attract more customers?
+            <span class="tag">shopping</span>
+          </div>
+          <div class="a">
+            Modern malls have to compete with e-commerce, so they need to offer
+            <span class="hl">what online shopping cannot</span>. Successful
+            malls increasingly function as
+            <span class="hl">lifestyle hubs</span> — incorporating cinemas,
+            gyms, art exhibits, kid-friendly spaces, and curated dining. Loyalty
+            programmes, seasonal events, and Instagrammable interior design also
+            help. Ultimately, the question isn't "how do we sell more products"
+            but "how do we make people want to spend their afternoon here."
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q7. Why is it difficult for some people to relax?
+            <span class="tag">relaxation</span>
+          </div>
+          <div class="a">
+            Several factors. Modern work culture
+            <span class="hl">glorifies busyness</span>, so people feel guilty
+            when they're not being productive. Smartphones blur the boundary
+            between work and leisure — emails follow us everywhere. And many
+            people simply <span class="hl">never learned how to relax</span>;
+            they don't have hobbies or restorative rituals, so when they finally
+            have free time, they default to scrolling, which isn't truly
+            restful. Genuine relaxation, ironically, is a skill that takes
+            practice.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q8. Which is more important, mental relaxation or physical
+            relaxation? <span class="tag">relaxation</span>
+          </div>
+          <div class="a">
+            In an ideal world, both — they're
+            <span class="hl">deeply intertwined</span>. Physical relaxation
+            through exercise, massage, or sleep helps regulate stress hormones,
+            while mental relaxation through meditation or hobbies prevents
+            burnout. If forced to choose, I'd lean slightly toward mental
+            relaxation, because chronic mental stress can persist even when your
+            body is resting. But genuinely, neglecting either creates a
+            <span class="hl">downstream problem</span> in the other.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q9. Should there be classes teaching young people how to relax?
+            <span class="tag">relaxation</span>
+          </div>
+          <div class="a">
+            Honestly, yes — and I'd argue it's <span class="hl">overdue</span>.
+            Schools teach children plenty about productivity and discipline but
+            almost nothing about
+            <span class="hl">recovery, mindfulness, and stress management</span
+            >. Given how common anxiety and burnout have become among young
+            people, basic skills like breathing techniques, time off from
+            screens, and healthy hobbies should be part of the curriculum.
+            Teaching kids to relax is just as important as teaching them to
+            work.
+          </div>
+        </div>
+      </section>
+
+      <section class="script" id="p3-5">
+        <h2>
+          Part 3 · Bank 5 — Spending, Movies, Stories, Apps, Heirlooms, Jobs
+        </h2>
+        <div class="subtitle">
+          Pairs with Part 2 Script 5 (Vintage Camera &amp; Films)
+        </div>
+
+        <div class="coverage">
+          <strong>Question topics covered:</strong> 花费超预期 · 观影 ·
+          家庭重要东西 · 故事 · App · 离不开 · 完美工作 · 失望电影
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q1. How do advertisements influence people's spending habits?
+            <span class="tag">spending</span>
+          </div>
+          <div class="a">
+            Advertisements are
+            <span class="hl">remarkably effective at manufacturing desire</span
+            >. They don't just inform — they create emotional associations,
+            linking products with happiness, status, or identity. Modern
+            targeted ads are even more potent because algorithms know our
+            browsing behaviour intimately and serve up
+            <span class="hl">precisely what we're vulnerable to</span>. The
+            result is that people often buy things they didn't know they wanted
+            ten minutes earlier. The defence is media literacy and
+            <span class="hl">a 24-hour rule</span> before any non-essential
+            purchase.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q2. Is it important to save money? Why?
+            <span class="tag">spending</span>
+          </div>
+          <div class="a">
+            Saving is <span class="hl">absolutely essential</span> in modern
+            life. It provides a
+            <span class="hl">financial cushion</span> against emergencies —
+            medical bills, job loss, sudden moves — and gives you the freedom to
+            make choices based on values rather than desperation. Saving also
+            enables long-term goals like education, homeownership, or
+            retirement. Without savings, you're
+            <span class="hl">trapped in a paycheck-to-paycheck cycle</span>
+            where every setback becomes a crisis.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q3. What are the factors that make a successful movie?
+            <span class="tag">movies</span>
+          </div>
+          <div class="a">
+            Several factors converge. A
+            <span class="hl">compelling story with relatable characters</span>
+            is always the foundation — without that, no amount of effects can
+            save a film. Strong direction, smart casting, and high production
+            values reinforce the story. Marketing and timing matter too — even
+            great films can flop if released against blockbusters. Increasingly,
+            <span class="hl">cultural resonance</span> is critical: films that
+            tap into the current zeitgeist tend to dominate the box office.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q4. Why do people prefer to watch movies in the cinema?
+            <span class="tag">movies</span>
+          </div>
+          <div class="a">
+            The cinema offers
+            <span class="hl">an immersive experience</span> that home viewing
+            can't fully replicate — a giant screen, surround sound, and the
+            absence of distractions force you to engage fully with the film.
+            There's also a social dimension: laughing or gasping with a hundred
+            strangers creates a kind of <span class="hl">communal energy</span>.
+            And going to the cinema is itself a ritual — buying popcorn, dimming
+            the lights — that elevates the act of watching into
+            <span class="hl">an event rather than background noise</span>.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q5. Do you believe movie reviews? <span class="tag">movies</span>
+          </div>
+          <div class="a">
+            Selectively. I trust reviews from critics whose taste aligns with
+            mine over time, and I also pay attention to
+            <span class="hl">audience-aggregate scores</span> rather than
+            individual reviews, which can be biased. However, I'm cautious of
+            <span class="hl">paid promotional reviews</span> and overly hyped
+            early opinions, which often don't reflect the film's true quality.
+            Honestly, my best filter is friends whose taste I know — that's far
+            more reliable than any professional reviewer.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q6. Why are bedtime stories important for children?
+            <span class="tag">stories</span>
+          </div>
+          <div class="a">
+            Bedtime stories serve multiple functions at once. They
+            <span class="hl">build vocabulary and listening skills</span> at a
+            critical developmental stage, foster a love of reading, and create
+            <span class="hl">a calming bonding ritual</span> between parent and
+            child. Stories also help children
+            <span class="hl">process emotions and moral concepts</span> safely —
+            through fictional characters, they explore fear, kindness, and
+            consequences. And on the practical side, the predictable rhythm of a
+            nightly story helps signal to the brain that it's time to sleep.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q7. Are traditional stories still relevant for children today?
+            <span class="tag">stories</span>
+          </div>
+          <div class="a">
+            Many of them absolutely are, though selectively. Traditional fairy
+            tales carry <span class="hl">timeless themes</span> — courage,
+            kindness, the consequences of greed — that remain universally
+            relevant. They also connect children to
+            <span class="hl">cultural heritage</span>. That said, some old
+            stories contain outdated gender roles or troubling messages that
+            need careful reinterpretation. The healthiest approach is to share
+            them alongside modern stories, helping children
+            <span class="hl">engage critically</span> with the values inside.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q8. Do you think mobile apps have made our lives easier or more
+            complicated? <span class="tag">apps</span>
+          </div>
+          <div class="a">
+            Genuinely both. On the convenience side, apps have
+            <span class="hl">streamlined countless daily tasks</span> — banking,
+            navigation, shopping, communication. On the complexity side, we now
+            juggle dozens of apps, each demanding attention through
+            notifications, and the cognitive load of
+            <span class="hl">constant context-switching</span> is real. So while
+            apps make individual tasks faster, the cumulative effect on our
+            attention and mental clarity is arguably negative. Healthy use
+            requires <span class="hl">deliberate digital hygiene</span>.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q9. Why is it important for children to learn about family history?
+            <span class="tag">heirlooms</span>
+          </div>
+          <div class="a">
+            Knowing your family history gives children
+            <span class="hl">a sense of identity and continuity</span> — they
+            understand they're part of a larger story rather than isolated
+            individuals. Studies have actually shown that children who know more
+            about their family history tend to be
+            <span class="hl">more emotionally resilient</span>, possibly because
+            that sense of belonging anchors them during hard times. It also
+            fosters <span class="hl">intergenerational connection</span> and
+            helps preserve cultural traditions that might otherwise be lost.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q10. Will people keep fewer physical objects in the future as
+            memories? <span class="tag">heirlooms</span>
+          </div>
+          <div class="a">
+            Almost certainly, yes. Photos, music, books, and even letters have
+            been <span class="hl">progressively dematerialised</span> over the
+            past two decades. The next generation may have very few physical
+            mementos compared to their grandparents. There's a
+            <span class="hl">trade-off</span> here: digital storage is more
+            compact and shareable, but physical objects carry
+            <span class="hl">a sensory weight</span> — texture, smell, patina —
+            that no JPEG can replicate. I suspect future generations will
+            increasingly treasure rare physical artefacts precisely because
+            they're rare.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q11. What should people consider when choosing a job?
+            <span class="tag">jobs</span>
+          </div>
+          <div class="a">
+            Several dimensions matter. Salary obviously, but also
+            <span class="hl"
+              >growth potential, work-life balance, and company culture</span
+            >. Increasingly, people also consider purpose — does the work align
+            with their values? Geography matters too, especially for remote vs
+            in-office roles. The best framework I've seen is to ask: "Will I
+            learn here, will I be paid fairly, and will I be respected?" If the
+            answer to all three is yes, it's probably
+            <span class="hl">worth pursuing</span>, even if no individual factor
+            is perfect.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q12. Is salary the main reason people choose a job?
+            <span class="tag">jobs</span>
+          </div>
+          <div class="a">
+            For some, yes — particularly those
+            <span class="hl">supporting families or paying off debt</span>. But
+            research consistently shows that beyond a certain income threshold,
+            salary contributes
+            <span class="hl">surprisingly little to long-term happiness</span>.
+            Factors like meaningful work, supportive colleagues, autonomy, and
+            growth opportunities matter far more for sustained job satisfaction.
+            So salary is a strong initial filter, but it's rarely the deepest
+            reason people stay in or leave a role.
+          </div>
+        </div>
+
+        <div class="qa">
+          <div class="q">
+            Q13. What is more important for job satisfaction: high salary or
+            good relationships with colleagues? <span class="tag">jobs</span>
+          </div>
+          <div class="a">
+            In the long run,
+            <span class="hl">good relationships almost always win</span>. A high
+            salary stops feeling exciting fairly quickly — it's what economists
+            call <span class="hl">"hedonic adaptation."</span> But a toxic
+            workplace can drain you every single day, regardless of how much
+            you're paid. Conversely, supportive colleagues can make even
+            mediocre work feel meaningful. Of course, an extremely low salary is
+            its own kind of stressor, so there's a baseline. But beyond that
+            baseline, relationships are decisive.
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          5 universal scripts · 27 cue cards covered · ~70 Part 3 model answers
+          · Calibrated for IELTS Band 7+
+        </p>
+        <p>
+          Practise speaking each Part 2 script aloud until you can deliver any
+          2–3 paragraphs in 2 minutes naturally. For Part 3, internalise the
+          structure: <em>Position → Reason → Example → Counterpoint</em>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
